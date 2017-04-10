@@ -19,9 +19,13 @@ https://github.com/zhanghan1990/zipline/wiki
 虚拟机密码为:zipline
 
 具体使用方法：打开virtual box ,输入以下命令
+
 - service mongodb start
+
 - source zipline/zip_env/bin/activate
+
 - sudo jupyter notebook
+
 - ifconfig
 
 得到虚拟机的IP 地址，例如IP为：192.168.1.120，则在windows浏览器输入 192.168.1.120:8888
@@ -60,6 +64,7 @@ version_1.0 完成的主要工作
 ========
 
 - 您可以使用自己的数据，也可以使用我配置的数据源，数据源我已经配置好，如果自己配置，需要修改文件 data/constants.py 下的IP和PORT
+- 我的机器的IP为166.111.68.233 PORT为27017
 - 本版本的数据源,只更新到2017.02.28,后面我会每天更新数据
 
 本地数据导入
